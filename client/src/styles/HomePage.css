@@ -1,0 +1,42 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+header h1 {
+    color: #2c3e50;
+}
+
+header h2 {
+    color: #34495e;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2980b9;
+    font-size: 18px;
+}
+
+nav ul li button.logout-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+nav ul li button.logout-button:hover {
+    background-color: #c0392b;
+}
